@@ -10,6 +10,8 @@
            HorizontalOptions="Center"
            VerticalOptions="CenterAndExpand" />
 
+        <local:CustomView WidthRequest="300" HeightRequest="200" BackgroundColor="Aqua"/>
+
         <Button Text="전화발생"
                 Clicked="Button_Clicked"/>
     </StackLayout>
