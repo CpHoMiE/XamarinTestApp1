@@ -14,9 +14,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <EmbeddedResource Update="LayoutStudyPage.xaml">
-      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
-    </EmbeddedResource>
     <EmbeddedResource Update="Page_Desktop.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
