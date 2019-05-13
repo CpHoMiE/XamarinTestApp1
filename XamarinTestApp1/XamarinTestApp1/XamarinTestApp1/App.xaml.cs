@@ -20,7 +20,7 @@ namespace XamarinTestApp1
                     MainPage = new Page_Desktop();
                     break;
                 case TargetIdiom.Phone:
-                    MainPage = new MainPage();
+                    MainPage = new LayoutStudyPage();
                     break;
                 default:
                     break;
