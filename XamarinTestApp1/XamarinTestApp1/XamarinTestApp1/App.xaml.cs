@@ -11,7 +11,20 @@ namespace XamarinTestApp1
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            //MainPage = new MainPage();
+
+            // Idiom은 디바이스 정보 리턴
+            switch (Device.Idiom)
+            {
+                case TargetIdiom.Desktop:
+                    MainPage = new Page_Desktop();
+                    break;
+                case TargetIdiom.Phone:
+                    MainPage = new MainPage();
+                    break;
+                default:
+                    break;
+            }
         }
 
         protected override void OnStart()

@@ -6,7 +6,7 @@
 
     <StackLayout>
         <!-- Place new controls here -->
-        <Label Text="자마린.Form 테스팅중!" 
+        <Label Text="모바일용 UI"
            HorizontalOptions="Center"
            VerticalOptions="CenterAndExpand" />
 
