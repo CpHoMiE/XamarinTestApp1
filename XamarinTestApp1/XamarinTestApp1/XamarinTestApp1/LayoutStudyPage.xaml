@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XamarinTestApp1.LayoutStudyPage">
+    <!-- Frame Layout은 하나의 View(Content)만 가질 수 있음-->
+    <Frame BackgroundColor="Green" HorizontalOptions="Center" VerticalOptions="Center" OutlineColor="Black" CornerRadius="5">
+        <Label Text="레이아웃 공부중.."
+            VerticalOptions="CenterAndExpand" 
+            HorizontalOptions="CenterAndExpand" />
+    </Frame>
+</ContentPage>
